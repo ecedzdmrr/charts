@@ -21,7 +21,6 @@ class _FirstLineChartPageState extends State<FirstLineChartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade200,
       body: SafeArea(
         child: AspectRatio(
           aspectRatio: 1,
