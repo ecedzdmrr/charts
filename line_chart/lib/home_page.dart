@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             const Gap(25),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushReplacementNamed(Routes.fistChart);
+                Navigator.of(context).pushReplacementNamed(Routes.secondChart);
               },
               child: const Text(
                 'Second Chart',
