@@ -121,7 +121,7 @@ class SecondLineChartWidget extends StatelessWidget {
     return SideTitleWidget(
       axisSide: meta.axisSide,
       child: Text(
-        '$value',
+        value.toStringAsFixed(0),
         style: style,
       ),
     );
