@@ -39,6 +39,20 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+            const Gap(25),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pushReplacementNamed(Routes.thirdChart);
+              },
+              child: const Text(
+                'Third Chart',
+                style: TextStyle(
+                  color: Color(0xFF5F6F52),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
+              ),
+            ),
           ],
         ),
       ),
