@@ -5,17 +5,21 @@ import 'package:line_chart/views/second_line_chart.dart';
 import 'package:line_chart/views/third_line_chart.dart';
 
 class Routes {
+
   Routes._();
 
   static const String home = '/home';
-  static const String fistChart = '/firstChart';
-  static const String secondChart = '/secondChart';
-  static const String thirdChart = '/thirdChart';
+  static const String fistLineChart = '/firstLineChart';
+  static const String secondLineChart = '/secondLineChart';
+  static const String thirdLineChart = '/thirdLineChart';
 
   static final routes = <String, WidgetBuilder>{
     home: (BuildContext context) => const HomePage(),
-    fistChart: (BuildContext context) => const FirstLineChartPage(),
-    secondChart: (BuildContext context) => const SecondLineChartPage(),
-    thirdChart: (BuildContext context) => const ThirdLineChartPage(),
+    fistLineChart: (BuildContext context) => const FirstLineChartPage(),
+    secondLineChart: (BuildContext context) => const SecondLineChartPage(),
+    thirdLineChart: (BuildContext context) => const ThirdLineChartPage(),
   };
 }
+
+
+

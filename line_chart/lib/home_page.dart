@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushReplacementNamed(Routes.fistChart);
+                Navigator.of(context).pushNamed(Routes.fistLineChart);
               },
               child: const Text(
                 'First Chart',
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             const Gap(25),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushReplacementNamed(Routes.secondChart);
+                Navigator.of(context).pushNamed(Routes.secondLineChart);
               },
               child: const Text(
                 'Second Chart',
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
             const Gap(25),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushReplacementNamed(Routes.thirdChart);
+                Navigator.of(context).pushNamed(Routes.thirdLineChart);
               },
               child: const Text(
                 'Third Chart',

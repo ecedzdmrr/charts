@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:line_chart/utils/routes.dart';
 import 'package:line_chart/widgets/first_line_chart_widget.dart';
 
 class FirstLineChartPage extends StatefulWidget {
@@ -24,12 +23,6 @@ class _FirstLineChartPageState extends State<FirstLineChartPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.grey.shade200,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.of(context).pushReplacementNamed(Routes.home);
-          },
-          icon: const Icon(Icons.arrow_back_ios),
-        ),
       ),
       body: AspectRatio(
         aspectRatio: 1,
